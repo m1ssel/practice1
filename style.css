@@ -41,12 +41,13 @@ body {
   padding-right: 133px;
   padding-bottom: 168px;
   background: #f8f8f8;
+  margin: auto;
 }
 
 .header-title {
   font-size: 24px;
   line-height: 45px;
-  font-weight: 300px;
+  font-weight: 300;
   margin-bottom: 53px;
 }
 
@@ -92,8 +93,7 @@ body {
 .header-img {
   display: block;
   width: 408px;
-  margin-top: -140px;
-  margin-right: 104px;
+  margin-top: -100px;
 }
 
 .popular-title {
@@ -101,14 +101,19 @@ body {
   text-align: center;
   font-size: 24px;
   line-height: 45px;
-  font-weight: 300px;
+  font-weight: 300;
 }
 .models-title {
   text-align: center;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 72px;
   line-height: 81px;
   margin-bottom: 84px;
+}
+.items-wrapper {
+  margin: 0 auto;
+  width: 417px;
+  margin-bottom: 85px;
 }
 .item-img-wrapper {
   display: flex;
@@ -124,4 +129,33 @@ body {
   font-size: 32px;
   line-height: 30px;
   margin-bottom: 17px;
+  font-weight: 400;
+}
+.item-description {
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+.product-description-wrapper {
+  margin: 0 auto;
+  width: 417px;
+  margin-bottom: 85px;
+  margin-top: 100px;
+}
+.product-description-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 60px;
+  margin-bottom: 58px;
+  font-weight: 400;
+}
+.product-description {
+  text-align: center;
+  font-size: 24px;
+  line-height: 41px;
+  font-weight: 300;
+}
+.product-description-link {
+  color: #bb8b5d;
 }
